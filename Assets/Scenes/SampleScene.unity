@@ -352,7 +352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6257e46210e8bba42b735b6e72eb8fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6257e46210e8bba42b735b6e72eb8fd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 402801604}
   - component: {fileID: 402801603}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: btnQuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +639,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 402801604}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1916877130}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &402801604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2064,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2c5b83b3a4e269747943c933000b9c4b, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c5b83b3a4e269747943c933000b9c4b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2274,7 +2286,7 @@ GameObject:
   - component: {fileID: 1376115234}
   - component: {fileID: 1376115233}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: btnPlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2355,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1376115234}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1916877130}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: SwitchToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1376115234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3144,6 +3168,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e777c4c899656164a8a0d14202e8e1b7, type: 3}
+--- !u!1 &1916877129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916877131}
+  - component: {fileID: 1916877130}
+  m_Layer: 0
+  m_Name: switchscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1916877130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916877129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3782320792f638a41a440a57828de12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1916877131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916877129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.102107, y: 59.41162, z: 126.72836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1984496864
 PrefabInstance:
   m_ObjectHideFlags: 0
