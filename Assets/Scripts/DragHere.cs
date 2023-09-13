@@ -12,6 +12,7 @@ public class DragHere : MonoBehaviour,IDropHandler // Penambahan inheritance dar
         if(eventData.pointerDrag != null ) // kondisi jika event data di deteksi kosong akan menjalankan code didalam if ini.
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition; // jika object yang di tarik sudah menyentuh sedikit ke dragboxnya akan otomatis di tempatkan
+            Debug.Log("Ada item terisi.");
         }
     }
     

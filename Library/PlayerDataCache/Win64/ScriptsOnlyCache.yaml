@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DragDrop
+    - DragHere
     - SceneSwitcher
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -69,19 +71,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16608}
     - Class: 114
-      Script: {instanceID: 17594}
+      Script: {instanceID: 17596}
     - Class: 114
-      Script: {instanceID: 17792}
+      Script: {instanceID: 17794}
     - Class: 114
-      Script: {instanceID: 18072}
+      Script: {instanceID: 18074}
     - Class: 114
-      Script: {instanceID: 19564}
+      Script: {instanceID: 19566}
     - Class: 114
-      Script: {instanceID: 20516}
+      Script: {instanceID: 20518}
     - Class: 114
-      Script: {instanceID: 20972}
+      Script: {instanceID: 20976}
     - Class: 114
-      Script: {instanceID: 22972}
+      Script: {instanceID: 23282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 154
@@ -125,9 +127,37 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16608}
+    - Class: 114
+      Script: {instanceID: 16734}
+    - Class: 114
+      Script: {instanceID: 17596}
+    - Class: 114
+      Script: {instanceID: 17794}
+    - Class: 114
+      Script: {instanceID: 18074}
+    - Class: 114
+      Script: {instanceID: 20518}
+    - Class: 114
+      Script: {instanceID: 20688}
+    - Class: 114
+      Script: {instanceID: 20976}
+    - Class: 115
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -160,6 +190,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DragHere
   - hash:
       serializedVersion: 2
       Hash: 1ed2c6278a809fcb97c4b0e845bbecc5
@@ -708,6 +744,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 50bfd34c2562be2c7a624d4486e4b940
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DragDrop
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -962,4 +1004,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/scene2.unity
-  playerPath: C:/Users/VALDO/Downloads/DemoversionAppSkripsi/codequest demover.exe
+  playerPath: C:/Users/VALDO/Downloads/testdebunggi1.2/codequest demover.exe
