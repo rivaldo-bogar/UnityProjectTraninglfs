@@ -6,6 +6,35 @@ using UnityEngine.EventSystems; // import EventSystem untuk inheritance beberapa
 // ada beberapa class inheritance yang ditambahakan
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
+    private void Update()
+    {
+      
+            float minX = -830.0f;
+            float maxX = 833.0f;
+            float minY = -495.0f;
+            float maxY = -323.0f;
+
+            Vector3 currentPosition = transform.position;
+
+            if (currentPosition.x < minX || currentPosition.x < maxX || currentPosition.y < minY || currentPosition.y < maxY)
+            {
+                Debug.Log("Dalam Kotak");
+                // Objek berada di luar area yang benar
+               // return true;
+            }
+            if (currentPosition.x > minX || currentPosition.x > maxX || currentPosition.y > minY || currentPosition.y > maxY)
+        {
+            Debug.Log("Diluar kotak");
+        }
+            // Implementasikan logika untuk memeriksa apakah objek berada di tempat yang benar
+            // Misalnya, Anda dapat memeriksa jarak antara objek dan posisi target
+            // Jika objek berada dalam jarak tertentu dari posisi target, Anda dapat mengembalikan true
+            // Jika tidak, Anda dapat mengembalikan false
+
+
+           // return false;
+        
+    }
     private RectTransform recttransform;
     private CanvasGroup canvasGrup; // Mendeklarasikan CanvasGroup dengan nama variabel canvasgrup
     [SerializeField] private Canvas canvas; // Deklarsai drag object canvas dengan Akses member private
@@ -26,6 +55,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         Debug.Log("on Drag");// Test dibugging apakah berfungsi
         recttransform.anchoredPosition += eventData.delta / canvas.scaleFactor; // akan mengatur posisi obj akan bergerak ketika di drag objectnya
+      
     }
 
     public void OnEndDrag(PointerEventData eventData) // function untuk obj sudah selesai di click dan di drag
