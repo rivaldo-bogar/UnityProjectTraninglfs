@@ -95,6 +95,7 @@ namespace MG_BlocksEngine2.Core
         {
             // v2.10 - bugfix: update and fixedupdate events were being cleared after receiving listeners
             UpdateBlocksStackList();
+            
         }
 
         void Update()

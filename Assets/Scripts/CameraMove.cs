@@ -4,19 +4,36 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    private float CameraMovement;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 5.0f; // Kecepatan gerakan kamera
+    public float minX = -5.0f; // Batas kiri
+    public float maxX = 5.0f;  // Batas kanan
 
-    // Update is called once per frame
+    private bool moveRight = true;
+    
     void Update()
     {
-        if(transform.position.x >= -21.0f)
+        // Mendapatkan posisi saat ini
+        Vector3 currentPosition = transform.position;
+
+        // Mengecek arah pergerakan dan memindahkan kamera
+        if (moveRight)
         {
-            transform.position = new Vector2();
+            currentPosition.x += speed * Time.deltaTime;
+            if (currentPosition.x >= maxX)
+            {
+                moveRight = false;
+            }
         }
+        else
+        {
+            currentPosition.x -= speed * Time.deltaTime;
+            if (currentPosition.x <= minX)
+            {
+                moveRight = true;
+            }
+        }
+
+        // Memperbarui posisi kamera
+        transform.position = currentPosition;
     }
 }

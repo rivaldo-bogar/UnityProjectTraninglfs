@@ -9,6 +9,7 @@ using MG_BlocksEngine2.UI;
 
 namespace MG_BlocksEngine2.Environment
 {
+    
     public class BE2_ProgrammingEnv : MonoBehaviour, I_BE2_ProgrammingEnv
     {
         Transform _transform;
@@ -75,6 +76,7 @@ namespace MG_BlocksEngine2.Environment
         void Start()
         {
             BE2_DragDropManager.Instance.Raycaster.AddRaycaster(_parentGraphicRaycaster);
+            ClearBlocks(); // ditambahkan sendiri oleh saya
         }
 
         //void Update()

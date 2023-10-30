@@ -32,6 +32,7 @@ namespace MG_BlocksEngine2.Environment
             {
                 _envs.Add(env.Transform.GetComponentInParent<BE2_Canvas>().Canvas.transform.GetChild(0) as RectTransform, (env.Transform.GetComponentInParent<BE2_Canvas>().Canvas.transform.GetChild(0) as RectTransform).anchoredPosition);
             }
+            HideBlocksSelection();
         }
 
         // void Update()
