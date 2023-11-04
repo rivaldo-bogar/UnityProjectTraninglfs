@@ -3,10 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
+    public GameObject levelcanva;
     // Fungsi ini akan dipanggil saat tombol tertentu ditekan atau kondisi lain terpenuhi
-    public void Goplayscene(string sceneName)
+    public void GoSelectLevel(string sceneName)
     {
-        SceneManager.LoadScene("gameplay");
+        levelcanva.SetActive(true);
     }
     public void QuitGame()
     {
@@ -16,6 +17,10 @@ public class SceneSwitcher : MonoBehaviour
     public void TutorialScene()
     {
         SceneManager.LoadScene("tutorial");
+    }
+    public void PopSelectLevel()
+    {
+        levelcanva.SetActive(false);
     }
 
 

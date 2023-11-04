@@ -1,0 +1,58 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="MG_BlocksEngine2.Environment.BE2_ProgrammingEnv">
+			<method name="ClearBlocks"/>
+			<method name="ClearBlocks"/>
+		</type>
+		<type fullname="MG_BlocksEngine2.UI.FunctionBlock.BE2_UI_CreateFunctionBlockMenu">
+			<method name="AddInput"/>
+			<method name="AddInput"/>
+			<method name="AddLabel"/>
+			<method name="AddLabel"/>
+			<method name="OnButtonCreateFunctionBlock"/>
+			<method name="OnButtonCreateFunctionBlock"/>
+		</type>
+		<type fullname="SceneSwitcher">
+			<method name="GoSelectLevel"/>
+			<method name="PopSelectLevel"/>
+			<method name="QuitGame"/>
+			<method name="TutorialScene"/>
+		</type>
+		<type fullname="scriptlevel">
+			<method name="level1"/>
+			<method name="level2"/>
+		</type>
+		<type fullname="settingpopup">
+			<method name="btn_setting"/>
+			<method name="btn_setting"/>
+			<method name="closepop"/>
+			<method name="closepop"/>
+		</type>
+		<type fullname="Showandhidesetting">
+			<method name="BtnCloseHide"/>
+			<method name="ShowCanvaSetting"/>
+		</type>
+		<type fullname="switchscene">
+			<method name="GotoMainMenu"/>
+			<method name="GotoMainMenu"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
