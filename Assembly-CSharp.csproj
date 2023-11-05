@@ -58,6 +58,7 @@
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Op_Not.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\HeaderItems\BE2_BlockSectionHeader_Label.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Ins_InsertAtList.cs" />
+    <Compile Include="Assets\Scripts\wallDetectRotation.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\DragDrop\BE2_SpotProgEnvViewport.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Op_Variable.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\BlocksEngine2\Scripts\BlockSections\BE2_BlockSection.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\UI\CustomScrollRect.cs" />
     <Compile Include="Assets\Scripts\tutorialback.cs" />
+    <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\HeaderItems\BE2_InputValues.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Op_KeyPressed.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -197,6 +199,7 @@
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Op_ListContains.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Ins_RemoveValueFromList.cs" />
+    <Compile Include="Assets\Scripts\closemission.cs" />
     <Compile Include="Assets\Scripts\falseDrag.cs" />
     <Compile Include="Assets\Scripts\tutorial.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Core\BE2_Canvas.cs" />
