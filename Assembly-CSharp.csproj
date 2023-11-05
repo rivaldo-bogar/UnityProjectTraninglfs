@@ -198,6 +198,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Ins_RemoveValueFromList.cs" />
     <Compile Include="Assets\Scripts\falseDrag.cs" />
+    <Compile Include="Assets\Scripts\tutorial.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Core\BE2_Canvas.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\UI\ContextMenu\BE2_UI_BlockContextMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />

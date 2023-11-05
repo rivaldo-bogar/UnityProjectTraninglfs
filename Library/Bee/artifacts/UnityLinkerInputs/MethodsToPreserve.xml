@@ -36,6 +36,9 @@
 			<method name="GotoMainMenu"/>
 			<method name="GotoMainMenu"/>
 		</type>
+		<type fullname="tutorialback">
+			<method name="BackMainMenu"/>
+		</type>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">

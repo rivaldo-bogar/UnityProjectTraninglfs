@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 65a1b3e1b5fa2ab47aefcb886cb8aa15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8688846680920958566
+    second: TEX_VanessaHairV2_BaseColor_old_0
+  - first:
+      213: -7838589127559799092
+    second: TEX_VanessaHairV2_BaseColor_old_1
+  - first:
+      213: 4795266610109085175
+    second: TEX_VanessaHairV2_BaseColor_old_2
+  - first:
+      213: -2238065436047987185
+    second: TEX_VanessaHairV2_BaseColor_old_3
+  - first:
+      213: 4712949841264581003
+    second: TEX_VanessaHairV2_BaseColor_old_4
+  - first:
+      213: -5789694038283582892
+    second: TEX_VanessaHairV2_BaseColor_old_5
+  - first:
+      213: -5728868285628303221
+    second: TEX_VanessaHairV2_BaseColor_old_6
+  - first:
+      213: 6127466818064146548
+    second: TEX_VanessaHairV2_BaseColor_old_7
+  - first:
+      213: -6236975243490508076
+    second: TEX_VanessaHairV2_BaseColor_old_8
+  - first:
+      213: -7724681574180277579
+    second: TEX_VanessaHairV2_BaseColor_old_9
+  - first:
+      213: 3063385100425835939
+    second: TEX_VanessaHairV2_BaseColor_old_10
+  - first:
+      213: -916824788304756733
+    second: TEX_VanessaHairV2_BaseColor_old_11
+  - first:
+      213: -4957796424937765191
+    second: TEX_VanessaHairV2_BaseColor_old_12
+  - first:
+      213: -673283427630973263
+    second: TEX_VanessaHairV2_BaseColor_old_13
+  - first:
+      213: -4430767917821093106
+    second: TEX_VanessaHairV2_BaseColor_old_14
+  - first:
+      213: 2017929291130107579
+    second: TEX_VanessaHairV2_BaseColor_old_15
+  - first:
+      213: -5661658193125332499
+    second: TEX_VanessaHairV2_BaseColor_old_16
+  - first:
+      213: 4395431041340531474
+    second: TEX_VanessaHairV2_BaseColor_old_17
+  - first:
+      213: -5425228250496819283
+    second: TEX_VanessaHairV2_BaseColor_old_18
+  - first:
+      213: 8779604869415176726
+    second: TEX_VanessaHairV2_BaseColor_old_19
+  - first:
+      213: 7568397767162323629
+    second: TEX_VanessaHairV2_BaseColor_old_20
+  - first:
+      213: -2852741882594336763
+    second: TEX_VanessaHairV2_BaseColor_old_21
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 215
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6662024550cf49870800000000000000
+      internalID: 8688846680920958566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 577
+        width: 83
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce1f8718bcb73390800000000000000
+      internalID: -7838589127559799092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 567
+        width: 96
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5f7d253953c8240800000000000000
+      internalID: 4795266610109085175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 573
+        width: 42
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ea74cf75bc0f0e0800000000000000
+      internalID: -2238065436047987185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 18
+        width: 165
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b891fcc09e2c76140800000000000000
+      internalID: 4712949841264581003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_5
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 703
+        width: 67
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45209e182ffd6afa0800000000000000
+      internalID: -5789694038283582892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_6
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 987
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88bf16a5a8fe70b0800000000000000
+      internalID: -5728868285628303221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_7
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 691
+        width: 62
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470e4b73b92290550800000000000000
+      internalID: 6127466818064146548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 723
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c7da9f00d179a0800000000000000
+      internalID: -6236975243490508076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_9
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 11
+        width: 113
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2baff090b6cc490800000000000000
+      internalID: -7724681574180277579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 682
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a53b11b484538a20800000000000000
+      internalID: 3063385100425835939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 607
+        width: 111
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30082db66b8c643f0800000000000000
+      internalID: -916824788304756733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_12
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 534
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b602e64b6e523bb0800000000000000
+      internalID: -4957796424937765191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_13
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 59
+        width: 187
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef5ee2a4408a6f0800000000000000
+      internalID: -673283427630973263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 566
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b9310dd00c282c0800000000000000
+      internalID: -4430767917821093106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 531
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb67aa3bfff110c10800000000000000
+      internalID: 2017929291130107579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 443
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9a51fbedfbd61b0800000000000000
+      internalID: -5661658193125332499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 16
+        width: 274
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213e3dd7e35bffc30800000000000000
+      internalID: 4395431041340531474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 446
+        width: 11
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf19b776a7b5b4b0800000000000000
+      internalID: -5425228250496819283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a08c5cc1c67d970800000000000000
+      internalID: 8779604869415176726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2e19e8ba9580960800000000000000
+      internalID: 7568397767162323629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEX_VanessaHairV2_BaseColor_old_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 56
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500e51c4f560968d0800000000000000
+      internalID: -2852741882594336763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

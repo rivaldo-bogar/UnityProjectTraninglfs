@@ -737,13 +737,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "btn_sound",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
@@ -1543,6 +1536,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "tutorialback",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AnimatorController",
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
@@ -1580,7 +1580,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -1640,7 +1641,6 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/mainmenu.unity"
             ]
         },
@@ -1692,15 +1692,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Avatar",
-            "fullManagedTypeName": "UnityEngine.Avatar",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/gameplay.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Behaviour",
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
@@ -1742,7 +1733,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -1763,7 +1755,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -1934,7 +1927,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -1993,7 +1987,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -2074,7 +2069,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {
@@ -2129,7 +2125,8 @@
             "usedInScenes": [
                 "Assets/Scenes/gameplay.unity",
                 "Assets/Scenes/gameplay2.unity",
-                "Assets/Scenes/mainmenu.unity"
+                "Assets/Scenes/mainmenu.unity",
+                "Assets/Scenes/tutorial.unity"
             ]
         },
         {

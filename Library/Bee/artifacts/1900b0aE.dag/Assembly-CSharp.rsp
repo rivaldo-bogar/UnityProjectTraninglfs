@@ -535,6 +535,7 @@
 "Assets/Scripts/settingpopup.cs"
 "Assets/Scripts/showandhidesetting.cs"
 "Assets/Scripts/switchscene.cs"
+"Assets/Scripts/tutorial.cs"
 "Assets/Scripts/tutorialback.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

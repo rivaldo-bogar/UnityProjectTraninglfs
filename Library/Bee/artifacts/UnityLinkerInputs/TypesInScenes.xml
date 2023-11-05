@@ -129,7 +129,6 @@
 		<type fullname="BE2_Op_Xor" preserve="nothing"/>
 		<type fullname="BE2_VirtualJoystick" preserve="nothing"/>
 		<type fullname="BE2_VirtualJoystickButton" preserve="nothing"/>
-		<type fullname="btn_sound" preserve="nothing"/>
 		<type fullname="CameraMove" preserve="nothing"/>
 		<type fullname="iconsettingrotate" preserve="nothing"/>
 		<type fullname="MG_BlocksEngine2.Block.BE2_Block" preserve="nothing"/>
@@ -197,6 +196,7 @@
 		<type fullname="settingpopup" preserve="nothing"/>
 		<type fullname="Showandhidesetting" preserve="nothing"/>
 		<type fullname="switchscene" preserve="nothing"/>
+		<type fullname="tutorialback" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
@@ -225,7 +225,6 @@
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
-		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
