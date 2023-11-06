@@ -536,6 +536,7 @@
 "Assets/Scripts/scriptlevel.cs"
 "Assets/Scripts/settingpopup.cs"
 "Assets/Scripts/showandhidesetting.cs"
+"Assets/Scripts/sound_btn.cs"
 "Assets/Scripts/switchscene.cs"
 "Assets/Scripts/tutorial.cs"
 "Assets/Scripts/tutorialback.cs"

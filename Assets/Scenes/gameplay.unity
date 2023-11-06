@@ -5468,8 +5468,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7757453, y: 0.02000017, z: 0.22823834}
-  m_Center: {x: -0.37787265, y: 0.0000018424795, z: 0.09057626}
+  m_Size: {x: 0.77574515, y: 0.083096564, z: 0.22823834}
+  m_Center: {x: -0.37787268, y: -0.0032554595, z: 0.090576254}
 --- !u!1 &100955025
 GameObject:
   m_ObjectHideFlags: 0
@@ -11418,6 +11418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 204486057}
+  - component: {fileID: 204486058}
   m_Layer: 5
   m_Name: btn_closescript
   m_TagString: Untagged
@@ -11444,6 +11445,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &204486058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204486056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c8a979c5f93dd459f94fe24e823442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvaMission: {fileID: 1452276530}
 --- !u!1 &206065131
 GameObject:
   m_ObjectHideFlags: 0
@@ -23272,27 +23286,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071069
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 013fdda5950e0264aacd50a6412fe8bf,
         type: 3}
@@ -23309,6 +23323,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pagerbasi1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 013fdda5950e0264aacd50a6412fe8bf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23317,6 +23336,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 459561866}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 013fdda5950e0264aacd50a6412fe8bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 459561870}
   m_SourcePrefab: {fileID: 100100000, guid: 013fdda5950e0264aacd50a6412fe8bf, type: 3}
 --- !u!4 &459561863 stripped
 Transform:
@@ -23343,8 +23366,22 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7757449, y: 0.02, z: 0.22823828}
-  m_Center: {x: -0.37787437, y: -0.00000333786, z: 0.09057631}
+  m_Size: {x: 0.7757449, y: 0.08712297, z: 0.22823828}
+  m_Center: {x: -0.3778743, y: -0.01781472, z: 0.090576306}
+--- !u!114 &459561870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169240646}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f767b348f59b74ab9accf360d8a7bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 30
+  targetRotation: 180
 --- !u!1 &461020467
 GameObject:
   m_ObjectHideFlags: 0
@@ -40211,7 +40248,7 @@ GameObject:
   - component: {fileID: 863456667}
   m_Layer: 0
   m_Name: CheckpointTest
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40313,11 +40350,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 863456662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f767b348f59b74ab9accf360d8a7bf, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5d4bd448c6e5c47a667ef4262525e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: {fileID: 169240646}
-  maxRotation: 90
+  scriptToActivate: {fileID: 459561870}
 --- !u!1 &863814575
 GameObject:
   m_ObjectHideFlags: 0
@@ -57087,6 +57123,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1613067566}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 052499b9a764fb5459cfd93a11374be7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1613067570}
   m_SourcePrefab: {fileID: 100100000, guid: 052499b9a764fb5459cfd93a11374be7, type: 3}
 --- !u!4 &1218746904 stripped
 Transform:
@@ -76413,7 +76453,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1500422436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 204486058}
+        m_TargetAssemblyTypeName: closemission, Assembly-CSharp
+        m_MethodName: hideCanvaMission
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: sound_btn, Assembly-CSharp
+        m_MethodName: Playbtn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1500422436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81779,8 +81843,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0833251, y: 0.18164416, z: 1.0265307}
-  m_Center: {x: -0.9468293, y: 0.02125018, z: 1.3819444}
+  m_Size: {x: 0.32158545, y: 0.18164416, z: 1.0265307}
+  m_Center: {x: -0.06637285, y: 0.02125018, z: 1.3819444}
 --- !u!65 &1613067566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81823,6 +81887,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13599266, y: 0.18164416, z: 0.68579745}
   m_Center: {x: -2.3916366, y: 0.021250183, z: 1.2115784}
+--- !u!65 &1613067570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613067562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33368802, y: 0.18164416, z: 1.0265307}
+  m_Center: {x: -1.8230681, y: 0.02125018, z: 1.3819444}
 --- !u!1 &1617402012
 GameObject:
   m_ObjectHideFlags: 0
@@ -114472,6 +114557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb5d4bd448c6e5c47a667ef4262525e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptToActivate: {fileID: 0}
 --- !u!1 &2136581942
 GameObject:
   m_ObjectHideFlags: 0

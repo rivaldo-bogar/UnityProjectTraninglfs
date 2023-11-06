@@ -233,6 +233,7 @@
     <Compile Include="Assets\BlocksEngine2\Scripts\HeaderItems\BE2_BlockSectionHeader_Dropdown.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Ins_BreakLoop.cs" />
     <Compile Include="Assets\Scripts\DragHere.cs" />
+    <Compile Include="Assets\Scripts\sound_btn.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\EngineCore\Instruction\BlockInstructions\BE2_Op_Nor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\BlocksEngine2\Scripts\DragDrop\BE2_DragTrigger.cs" />

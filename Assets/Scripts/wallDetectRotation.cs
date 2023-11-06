@@ -4,32 +4,23 @@ using UnityEngine;
 
 public class wallDetectRotation : MonoBehaviour
 {
-    public GameObject wall;
-    public float maxRotation = 90.0f; // Maksimum rotasi yang diizinkan
-    private bool isRotating = false; // Untuk melacak apakah objek sedang berputar
+    public float rotationSpeed = 30f; // Kecepatan rotasi (dalam derajat per detik)
+    public float targetRotation = -257f; // Rotasi yang diinginkan sebelum berhenti
+    private bool isRotating = true;
 
-    void OnCollisionEnter(Collision collision)
+    void Update()
     {
-        if (!isRotating)
+        if (isRotating)
         {
-            isRotating = true;
-            StartCoroutine(RotateObject());
+            // Rotasi objek secara terus menerus
+            transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
+
+            // Periksa apakah objek telah mencapai rotasi yang diinginkan
+            if (transform.rotation.eulerAngles.y >= targetRotation)
+            {
+                // Objek telah mencapai rotasi yang diinginkan, berhenti berputar
+                isRotating = false;
+            }
         }
-    }
-
-    IEnumerator RotateObject()
-    {
-        float currentRotation = 0.0f;
-
-        while (currentRotation < maxRotation)
-        {
-            // Rotasi objek pada sumbu yang diinginkan (misalnya, Y)
-            wall.transform.Rotate(Vector3.forward * Time.deltaTime);
-            currentRotation += Time.deltaTime;
-
-            yield return null;
-        }
-
-        isRotating = false;
     }
 }
